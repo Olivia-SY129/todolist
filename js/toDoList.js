@@ -49,7 +49,6 @@ function removeList(event) {
     const btn = event.target;
     const li = btn.parentNode;
     const index = parseInt(li.id);
-
     toDoList.removeChild(li);
     toDos.splice(index, 1);
     
